@@ -1,0 +1,539 @@
+Cmp-Mod V01 Created by PcbNew   date = 10.04.2016 17:27:06
+
+BeginCmp
+TimeStamp = 5703ED22
+Path = 
+Reference = [NoRef];
+ValeurCmp = MountingHole_2.2mm_M2_ISO7380_Pad;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5703ED72
+Path = 
+Reference = [NoRef];
+ValeurCmp = MountingHole_2.2mm_M2_ISO7380_Pad;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5703ED65
+Path = 
+Reference = [NoRef];
+ValeurCmp = MountingHole_2.2mm_M2_ISO7380_Pad;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC692C
+Path = /56ECC922
+Reference = Switches1;
+ValeurCmp = CONN_02X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3643
+Path = /56E9AFC7
+Reference = AC_Driver1;
+ValeurCmp = MIC5021;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC367F
+Path = /56EA877D
+Reference = C_24V1;
+ValeurCmp = 1µ;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC36AF
+Path = /56E975AF
+Reference = C_I_AC_VCC1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC36C7
+Path = /56E96DE1
+Reference = C_I_DC_VCC1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC36DF
+Path = /56E97ADB
+Reference = C_I_PV_VCC1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC36EB
+Path = /56E9F4A6
+Reference = C_T_OPT1;
+ValeurCmp = 2,7n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC36F7
+Path = /56E9EF86
+Reference = C_T_OPT2;
+ValeurCmp = 2,7n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3703
+Path = /56EBF684
+Reference = C_Xtal1;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC370F
+Path = /56EC07EE
+Reference = C_Xtal2;
+ValeurCmp = 22pF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3721
+Path = /56E9A252
+Reference = D1;
+ValeurCmp = ZENERsmall;
+IdModule  = Diodes_SMD:SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC374A
+Path = /56E9F47C
+Reference = DC_DRIVER1;
+ValeurCmp = MIC5021;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3762
+Path = /56ECEB08
+Reference = ESP8266;
+ValeurCmp = CONN_02X04;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3777
+Path = /56ECEFEC
+Reference = FTDI1;
+ValeurCmp = CONN_01X06;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC378A
+Path = /56E94948
+Reference = I_AC1;
+ValeurCmp = ACS711;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC379D
+Path = /56E9499E
+Reference = I_DC1;
+ValeurCmp = ACS711;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC37B0
+Path = /56E84EC6
+Reference = I_PV1;
+ValeurCmp = ACS711;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC37D8
+Path = /56EADCA2
+Reference = Atmega328;
+ValeurCmp = ATMEGA328-P;
+IdModule  = SunZilla_Footprint:DIP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3A03
+Path = /56E84393
+Reference = R1;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3A0F
+Path = /56E8446A
+Reference = R2;
+ValeurCmp = 2k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3AC6
+Path = /56EA6EAE
+Reference = U1;
+ValeurCmp = R78C3.3-1.0;
+IdModule  = Converters_DCDC_ACDC:DCDC-Conv_Recom_R-78HBxx-0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3B2B
+Path = /56EBE9BD
+Reference = Y1;
+ValeurCmp = Crystal_Small;
+IdModule  = Crystals:Crystal_HC50-U_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3B37
+Path = /56EC759E
+Reference = µC1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC3B43
+Path = /56EC7675
+Reference = µC2;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC59C9
+Path = /56EC285E
+Reference = C_µC1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC5C02
+Path = /56EB960B
+Reference = AC_ON1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC5C18
+Path = /56EB9384
+Reference = DC_ON1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC5C2E
+Path = /56EB3A85
+Reference = VCC3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC5FE1
+Path = /56EB9872
+Reference = R_AC_ON1;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC5FED
+Path = /56EB9790
+Reference = R_DC_ON1;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC5FF9
+Path = /56EB96E1
+Reference = R_VCC3;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC6D3C
+Path = /56ECCAA3
+Reference = R_SW1;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC6D48
+Path = /56ECCB87
+Reference = R_SW2;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EC6D54
+Path = /56ECCC42
+Reference = R_SW3;
+ValeurCmp = 16k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56EFD418
+Path = /56EC3B27
+Reference = R_RESET1;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F002D3
+Path = /56E9B248
+Reference = AC_MOSFET1;
+ValeurCmp = CSD18540Q5B;
+IdModule  = SunZilla:MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F00994
+Path = /56E9F482
+Reference = DC_MOSFET1;
+ValeurCmp = CSD18540Q5B;
+IdModule  = SunZilla:MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F009A5
+Path = /56EA09B8
+Reference = DC_MOSFET2;
+ValeurCmp = CSD18540Q5B;
+IdModule  = SunZilla:MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F039C9
+Path = /56F469DC
+Reference = L1;
+ValeurCmp = CONN_01X14;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x14;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F039E6
+Path = /56F4748A
+Reference = R3;
+ValeurCmp = CONN_01X14;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x14;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F1366A
+Path = /56F14CBA
+Reference = SD1;
+ValeurCmp = microSD;
+IdModule  = SunZilla:microSD;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F15CCF
+Path = /56E9E994
+Reference = C_BOOST_AC1;
+ValeurCmp = 2,7n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F2CDCC
+Path = /56F2EA4B
+Reference = P5;
+ValeurCmp = VCC_Board;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3C810
+Path = /56EA882C
+Reference = C_3V1;
+ValeurCmp = 10µ;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3C838
+Path = /56F735DE
+Reference = C_3V2;
+ValeurCmp = 100µ;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3C84A
+Path = /56F724CC
+Reference = D_VCC3;
+ValeurCmp = V_Z > 3.6V;
+IdModule  = Diodes_SMD:SOD-123;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3C85B
+Path = /56F76070
+Reference = P6;
+ValeurCmp = GND;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3CA27
+Path = /56F779D6
+Reference = P7;
+ValeurCmp = GND;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3E5A6
+Path = /56F95706
+Reference = P8;
+ValeurCmp = VCC3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3FC1B
+Path = /56F9F083
+Reference = AC_Driver2;
+ValeurCmp = 10µF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F3FC27
+Path = /56F9D70C
+Reference = DC_Driver1;
+ValeurCmp = 10µF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F66B50
+Path = /56F6A147
+Reference = C_BOOST_AC2;
+ValeurCmp = 2,7n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F66B5C
+Path = /56F6A14F
+Reference = C_T_OPT3;
+ValeurCmp = 2,7n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F66B68
+Path = /56F6A15C
+Reference = PV_Driver1;
+ValeurCmp = 10µF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 56F66B79
+Path = /56F6787F
+Reference = PV_Mosfet1;
+ValeurCmp = CSD18540Q5B;
+IdModule  = SunZilla:MOSFET;
+EndCmp
+
+BeginCmp
+TimeStamp = 5703EC8C
+Path = 
+Reference = [NoRef];
+ValeurCmp = MountingHole_2.2mm_M2_ISO7380_Pad;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5703F2D1
+Path = /56F6A13D
+Reference = PV_Driver2;
+ValeurCmp = MIC5021;
+IdModule  = SMD_Packages:SOIC-8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 57051C6C
+Path = /56E9D719
+Reference = AC1;
+ValeurCmp = AC_Out;
+IdModule  = SunZilla_Footprint:Phoenix_635;
+EndCmp
+
+BeginCmp
+TimeStamp = 57051C76
+Path = /56EA1DEF
+Reference = BAT1;
+ValeurCmp = BAT;
+IdModule  = SunZilla_Footprint:Phoenix_635;
+EndCmp
+
+BeginCmp
+TimeStamp = 57051C82
+Path = /56E9F49D
+Reference = C_BOOST_DC1;
+ValeurCmp = 2,7n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57051C8C
+Path = /56E9F488
+Reference = DC1;
+ValeurCmp = DC_Out;
+IdModule  = SunZilla_Footprint:Phoenix_635;
+EndCmp
+
+BeginCmp
+TimeStamp = 57051C96
+Path = /56EA222F
+Reference = PV1;
+ValeurCmp = PV;
+IdModule  = SunZilla_Footprint:Phoenix_635;
+EndCmp
+
+BeginCmp
+TimeStamp = 570528C9
+Path = /5705A742
+Reference = P1;
+ValeurCmp = GND;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 570A70CE
+Path = /570AE9F4
+Reference = P2;
+ValeurCmp = GND;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+EndListe
