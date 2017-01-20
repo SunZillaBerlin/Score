@@ -1,3 +1,8 @@
+// This Softare is licenced under under the LPGL 3.0
+// Use at your own risk!
+// Author: Laurin Vierrath / SunZilla UG (haftungsbeschraenkt), Berlin
+// Jan 2017
+
 boolean first_data_submission = true;
 
 void get_identity(){
