@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:/tubcloud/Kicad_SunZilla/SunZilla_0.2_3.3Vonly.sch</source>
+    <date>12.04.2016 13:01:33</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SunZilla Intelligence</title>
+        <company>SunZilla</company>
+        <rev>0.1</rev>
+        <date>2016-03-16</date>
+        <source>SunZilla_0.2_3.3Vonly.sch</source>
+        <comment number="1" value="Laurin Vierrath"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>R1_VBus</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E84393</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R2_VBus</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E8446A</tstamp>
+    </comp>
+    <comp ref="I_PV1">
+      <value>I_PV</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="ACS711"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E84EC6</tstamp>
+    </comp>
+    <comp ref="I_AC1">
+      <value>I_AC</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="ACS711"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E94948</tstamp>
+    </comp>
+    <comp ref="I_DC1">
+      <value>I_DC</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="ACS711"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9499E</tstamp>
+    </comp>
+    <comp ref="C_I_DC_VCC1">
+      <value>C_I_DC_VCC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E96DE1</tstamp>
+    </comp>
+    <comp ref="C_I_AC_VCC1">
+      <value>C_I_AC_VCC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E975AF</tstamp>
+    </comp>
+    <comp ref="C_I_PV_VCC1">
+      <value>C_I_PV_VCC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E97ADB</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>ZD_Vbus</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <libsource lib="device" part="ZENERsmall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9A252</tstamp>
+    </comp>
+    <comp ref="MIC5021_2">
+      <value>ACdriver</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="MIC5021"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9AFC7</tstamp>
+    </comp>
+    <comp ref="AC_MOSFET1">
+      <value>AC_Mos</value>
+      <footprint>SunZilla:MOSFET</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="CSD18540Q5B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9B248</tstamp>
+    </comp>
+    <comp ref="AC1">
+      <value>AC</value>
+      <footprint>SunZilla_Footprint:Phoenix_635</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9D719</tstamp>
+    </comp>
+    <comp ref="C_BOOST_AC1">
+      <value>C_BoostAC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9E994</tstamp>
+    </comp>
+    <comp ref="C_T_OPT2">
+      <value>C_T_OPT</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9EF86</tstamp>
+    </comp>
+    <comp ref="MIC5021">
+      <value>DCdriver</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="MIC5021"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9F47C</tstamp>
+    </comp>
+    <comp ref="DC_MOSFET1">
+      <value>DC_Mos</value>
+      <footprint>SunZilla:MOSFET</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="CSD18540Q5B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9F482</tstamp>
+    </comp>
+    <comp ref="DC1">
+      <value>DC</value>
+      <footprint>SunZilla_Footprint:Phoenix_635</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9F488</tstamp>
+    </comp>
+    <comp ref="C_BOOST_DC1">
+      <value>C_BoostDC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9F49D</tstamp>
+    </comp>
+    <comp ref="C_T_OPT1">
+      <value>C_T_OPT</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E9F4A6</tstamp>
+    </comp>
+    <comp ref="DC_MOSFET2">
+      <value>DC_Mos</value>
+      <footprint>SunZilla:MOSFET</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="CSD18540Q5B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA09B8</tstamp>
+    </comp>
+    <comp ref="BAT1">
+      <value>BAT</value>
+      <footprint>SunZilla_Footprint:Phoenix_635</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA1DEF</tstamp>
+    </comp>
+    <comp ref="PV1">
+      <value>PV</value>
+      <footprint>SunZilla_Footprint:Phoenix_635</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA222F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>R78C3.3-1.0</value>
+      <footprint>Converters_DCDC_ACDC:DCDC-Conv_Recom_R-78HBxx-0.5</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="R78"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA6EAE</tstamp>
+    </comp>
+    <comp ref="C_24V1">
+      <value>C_24V</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA877D</tstamp>
+    </comp>
+    <comp ref="C_3V1">
+      <value>C_3V_A</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EA882C</tstamp>
+    </comp>
+    <comp ref="Masterbrain1">
+      <value>ATMEGA328-P</value>
+      <footprint>SunZilla_Footprint:DIP-28</footprint>
+      <libsource lib="atmel" part="ATMEGA328-P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EADCA2</tstamp>
+    </comp>
+    <comp ref="VCC3">
+      <value>LED_3V</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB3A85</tstamp>
+    </comp>
+    <comp ref="DC_ON1">
+      <value>LED_DCon</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB9384</tstamp>
+    </comp>
+    <comp ref="AC_ON1">
+      <value>LED_ACon</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB960B</tstamp>
+    </comp>
+    <comp ref="R_VCC3">
+      <value>R_LED_3V</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB96E1</tstamp>
+    </comp>
+    <comp ref="R_DC_ON1">
+      <value>R_DC_ON1</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB9790</tstamp>
+    </comp>
+    <comp ref="R_AC_ON1">
+      <value>R_AC_ON1</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EB9872</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Xtal</value>
+      <footprint>Crystals:Crystal_HC50-U_Vertical</footprint>
+      <libsource lib="device" part="Crystal_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EBE9BD</tstamp>
+    </comp>
+    <comp ref="C_Xtal1">
+      <value>C_Xtal</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EBF684</tstamp>
+    </comp>
+    <comp ref="C_Xtal2">
+      <value>C_Xtal</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC07EE</tstamp>
+    </comp>
+    <comp ref="C_µC1">
+      <value>C_DTR</value>
+      <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC285E</tstamp>
+    </comp>
+    <comp ref="R_RESET1">
+      <value>Rreset</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC3B27</tstamp>
+    </comp>
+    <comp ref="µC1">
+      <value>C_µC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC759E</tstamp>
+    </comp>
+    <comp ref="µC2">
+      <value>C_µC</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56EC7675</tstamp>
+    </comp>
+    <comp ref="Switches1">
+      <value>Switches</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECC922</tstamp>
+    </comp>
+    <comp ref="R_SW1">
+      <value>R_switch</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECCAA3</tstamp>
+    </comp>
+    <comp ref="R_SW2">
+      <value>16k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECCB87</tstamp>
+    </comp>
+    <comp ref="R_SW3">
+      <value>16k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECCC42</tstamp>
+    </comp>
+    <comp ref="ESP8266">
+      <value>CONN_02X04</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x04</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECEB08</tstamp>
+    </comp>
+    <comp ref="FTDI1">
+      <value>FTDI</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x06</footprint>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56ECEFEC</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>CONN_01X14</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x14</footprint>
+      <libsource lib="conn" part="CONN_01X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F469DC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>CONN_01X14</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x14</footprint>
+      <libsource lib="conn" part="CONN_01X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F4748A</tstamp>
+    </comp>
+    <comp ref="SD1">
+      <value>microSD</value>
+      <footprint>SunZilla:microSD</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="microSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F14CBA</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>EXT_Supply</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_2pol</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F2EA4B</tstamp>
+    </comp>
+    <comp ref="D_VCC5">
+      <value>ZD_VCC</value>
+      <footprint>Diodes_SMD:SOD-123</footprint>
+      <datasheet>E:\tubcloud\SunZilla\2 Produktentwicklung\Sunzilla 3.0\Komponenten\Zehner 3.6 MMSZ4678T1-D-274576.pdf</datasheet>
+      <libsource lib="device" part="ZENERsmall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F724CC</tstamp>
+    </comp>
+    <comp ref="C_3V2">
+      <value>C_3V_B</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D5_L11_P2.5</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F735DE</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>GND</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F76070</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>Supply_Sel</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F779D6</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>VCC3</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F95706</tstamp>
+    </comp>
+    <comp ref="DC_Driver1">
+      <value>C_DCdriver</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F9D70C</tstamp>
+    </comp>
+    <comp ref="AC_Driver2">
+      <value>C_ACdriver</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F9F083</tstamp>
+    </comp>
+    <comp ref="CSD18540Q5B1">
+      <value>PV_Mos</value>
+      <footprint>SunZilla:MOSFET</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="CSD18540Q5B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6787F</tstamp>
+    </comp>
+    <comp ref="MIC5021_3">
+      <value>PVdriver</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <libsource lib="SunZilla_0.2_3.3Vonly-cache" part="MIC5021"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6A13D</tstamp>
+    </comp>
+    <comp ref="C_BOOST_AC2">
+      <value>C_BoostPV</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6A147</tstamp>
+    </comp>
+    <comp ref="C_T_OPT3">
+      <value>C_T_OPT</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6A14F</tstamp>
+    </comp>
+    <comp ref="PV_Driver1">
+      <value>C_PVdriver</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56F6A15C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>RESET_SEL</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5705A742</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>GND</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570AE9F4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SunZilla_0.2_3.3Vonly-cache" part="ACS711">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ACS711</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IP+" type="input"/>
+        <pin num="2" name="IP+" type="input"/>
+        <pin num="3" name="IP-" type="input"/>
+        <pin num="4" name="IP-" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="FAULT" type="input"/>
+        <pin num="7" name="V_OUT" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="ATMEGA168A-P">
+      <aliases>
+        <alias>ATMEGA48A-P</alias>
+        <alias>ATMEGA48PA-P</alias>
+        <alias>ATMEGA88A-P</alias>
+        <alias>ATMEGA88PA-P</alias>
+        <alias>ATMEGA168PA-P</alias>
+        <alias>ATMEGA328-P</alias>
+        <alias>ATMEGA328P-P</alias>
+      </aliases>
+      <description>PDIP28 Narrow, 16k Flash, 1kB SRAM, 512B EEPROM</description>
+      <docs>http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf</docs>
+      <footprints>
+        <fp>28DIP-ELL600</fp>
+        <fp>28dip600</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATMEGA168A-P</field>
+        <field name="Footprint">DIL28</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="3" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="4" name="(PCINT18/INT0)PD2" type="BiDi"/>
+        <pin num="5" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="6" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="10" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="11" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="12" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="13" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="14" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="15" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="16" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="17" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="18" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="19" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="20" name="AVCC" type="power_in"/>
+        <pin num="21" name="AREF" type="BiDi"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X14">
+      <description>Connector 01x14</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X14</fp>
+        <fp>Pin_Header_Angled_1X14</fp>
+        <fp>Socket_Strip_Straight_1X14</fp>
+        <fp>Socket_Strip_Angled_1X14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SunZilla_0.2_3.3Vonly-cache" part="CSD18540Q5B">
+      <fields>
+        <field name="Reference">MOSFET</field>
+        <field name="Value">CSD18540Q5B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="input"/>
+        <pin num="2" name="S" type="input"/>
+        <pin num="3" name="S" type="input"/>
+        <pin num="4" name="Gate" type="input"/>
+        <pin num="5" name="D" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="D" type="input"/>
+        <pin num="8" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal_Small">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SunZilla_0.2_3.3Vonly-cache" part="MIC5021">
+      <fields>
+        <field name="Reference">Driver</field>
+        <field name="Value">MIC5021</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="Input" type="input"/>
+        <pin num="3" name="C_T_opt" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="Sense+" type="input"/>
+        <pin num="6" name="Sense-" type="input"/>
+        <pin num="7" name="Gate" type="output"/>
+        <pin num="8" name="V_Boost" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SunZilla_0.2_3.3Vonly-cache" part="R78">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R78</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V_IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="V_Out" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENERsmall">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENERsmall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SunZilla_0.2_3.3Vonly-cache" part="microSD">
+      <fields>
+        <field name="Reference">SD</field>
+        <field name="Value">microSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="SS" type="input"/>
+        <pin num="3" name="MOSI" type="input"/>
+        <pin num="4" name="VCC3" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="MISO" type="input"/>
+        <pin num="8" name="-" type="input"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="Montage" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
+    </library>
+    <library logical="SunZilla_0.2_3.3Vonly-cache">
+      <uri>E:\tubcloud\Kicad_SunZilla\SunZilla_0.2_3.3Vonly-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/PV_SOURCE">
+      <node ref="MIC5021_3" pin="5"/>
+      <node ref="MIC5021_3" pin="6"/>
+      <node ref="PV1" pin="2"/>
+      <node ref="CSD18540Q5B1" pin="3"/>
+      <node ref="CSD18540Q5B1" pin="2"/>
+      <node ref="CSD18540Q5B1" pin="1"/>
+      <node ref="C_BOOST_AC2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C_BOOST_AC2-Pad2)">
+      <node ref="MIC5021_3" pin="8"/>
+      <node ref="C_BOOST_AC2" pin="2"/>
+    </net>
+    <net code="3" name="/VCC24">
+      <node ref="AC_Driver2" pin="1"/>
+      <node ref="DC_Driver1" pin="1"/>
+      <node ref="MIC5021_2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="C_24V1" pin="1"/>
+      <node ref="MIC5021_3" pin="1"/>
+      <node ref="PV_Driver1" pin="1"/>
+      <node ref="MIC5021" pin="1"/>
+    </net>
+    <net code="4" name="/GND">
+      <node ref="DC1" pin="1"/>
+      <node ref="C_24V1" pin="2"/>
+      <node ref="C_3V1" pin="2"/>
+      <node ref="R_DC_ON1" pin="1"/>
+      <node ref="SD1" pin="6"/>
+      <node ref="C_I_DC_VCC1" pin="2"/>
+      <node ref="ESP8266" pin="1"/>
+      <node ref="R_VCC3" pin="1"/>
+      <node ref="R_SW3" pin="2"/>
+      <node ref="L1" pin="8"/>
+      <node ref="MIC5021" pin="4"/>
+      <node ref="R_SW2" pin="2"/>
+      <node ref="R_SW1" pin="2"/>
+      <node ref="C_I_AC_VCC1" pin="2"/>
+      <node ref="C_T_OPT1" pin="2"/>
+      <node ref="µC1" pin="2"/>
+      <node ref="BAT1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="PV1" pin="1"/>
+      <node ref="C_T_OPT2" pin="2"/>
+      <node ref="AC_Driver2" pin="2"/>
+      <node ref="P5" pin="1"/>
+      <node ref="R_AC_ON1" pin="1"/>
+      <node ref="DC_Driver1" pin="2"/>
+      <node ref="P6" pin="2"/>
+      <node ref="D_VCC5" pin="2"/>
+      <node ref="C_3V2" pin="2"/>
+      <node ref="P6" pin="1"/>
+      <node ref="Masterbrain1" pin="8"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="I_PV1" pin="5"/>
+      <node ref="MIC5021_3" pin="4"/>
+      <node ref="Masterbrain1" pin="22"/>
+      <node ref="C_I_PV_VCC1" pin="2"/>
+      <node ref="PV_Driver1" pin="2"/>
+      <node ref="C_T_OPT3" pin="2"/>
+      <node ref="FTDI1" pin="2"/>
+      <node ref="FTDI1" pin="1"/>
+      <node ref="AC1" pin="1"/>
+      <node ref="C_Xtal1" pin="2"/>
+      <node ref="R3" pin="8"/>
+      <node ref="MIC5021_2" pin="4"/>
+      <node ref="C_Xtal2" pin="2"/>
+      <node ref="I_DC1" pin="5"/>
+      <node ref="µC2" pin="2"/>
+      <node ref="I_AC1" pin="5"/>
+    </net>
+    <net code="5" name="/RST">
+      <node ref="P1" pin="2"/>
+      <node ref="ESP8266" pin="6"/>
+    </net>
+    <net code="6" name="/VCC3">
+      <node ref="Switches1" pin="3"/>
+      <node ref="FTDI1" pin="3"/>
+      <node ref="Switches1" pin="5"/>
+      <node ref="Masterbrain1" pin="7"/>
+      <node ref="L1" pin="7"/>
+      <node ref="C_I_AC_VCC1" pin="1"/>
+      <node ref="C_I_DC_VCC1" pin="1"/>
+      <node ref="SD1" pin="4"/>
+      <node ref="I_AC1" pin="8"/>
+      <node ref="Masterbrain1" pin="21"/>
+      <node ref="I_DC1" pin="8"/>
+      <node ref="VCC3" pin="2"/>
+      <node ref="I_PV1" pin="8"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C_I_PV_VCC1" pin="1"/>
+      <node ref="C_3V2" pin="1"/>
+      <node ref="Masterbrain1" pin="20"/>
+      <node ref="Switches1" pin="1"/>
+      <node ref="µC1" pin="1"/>
+      <node ref="R_RESET1" pin="1"/>
+      <node ref="µC2" pin="1"/>
+      <node ref="D_VCC5" pin="1"/>
+      <node ref="ESP8266" pin="8"/>
+      <node ref="P8" pin="1"/>
+      <node ref="C_3V1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="6"/>
+      <node ref="R3" pin="7"/>
+      <node ref="P8" pin="2"/>
+      <node ref="ESP8266" pin="4"/>
+    </net>
+    <net code="7" name="Net-(I_AC1-Pad6)">
+      <node ref="I_AC1" pin="6"/>
+    </net>
+    <net code="8" name="Net-(I_PV1-Pad6)">
+      <node ref="I_PV1" pin="6"/>
+    </net>
+    <net code="9" name="/PV+">
+      <node ref="CSD18540Q5B1" pin="7"/>
+      <node ref="CSD18540Q5B1" pin="5"/>
+      <node ref="CSD18540Q5B1" pin="6"/>
+      <node ref="I_PV1" pin="3"/>
+      <node ref="CSD18540Q5B1" pin="8"/>
+      <node ref="I_PV1" pin="4"/>
+    </net>
+    <net code="10" name="Net-(I_DC1-Pad6)">
+      <node ref="I_DC1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(C_T_OPT3-Pad1)">
+      <node ref="MIC5021_3" pin="3"/>
+      <node ref="C_T_OPT3" pin="1"/>
+    </net>
+    <net code="12" name="/PV_GATE">
+      <node ref="CSD18540Q5B1" pin="4"/>
+      <node ref="MIC5021_3" pin="7"/>
+    </net>
+    <net code="13" name="/PV_GO">
+      <node ref="Masterbrain1" pin="6"/>
+      <node ref="MIC5021_3" pin="2"/>
+      <node ref="L1" pin="6"/>
+    </net>
+    <net code="15" name="/A5">
+      <node ref="R3" pin="14"/>
+      <node ref="Masterbrain1" pin="28"/>
+    </net>
+    <net code="16" name="/A0">
+      <node ref="Masterbrain1" pin="23"/>
+      <node ref="R3" pin="9"/>
+      <node ref="SD1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(SD1-Pad10)">
+      <node ref="SD1" pin="10"/>
+    </net>
+    <net code="18" name="Net-(SD1-Pad8)">
+      <node ref="SD1" pin="8"/>
+    </net>
+    <net code="19" name="/XTal1">
+      <node ref="C_Xtal1" pin="1"/>
+      <node ref="Masterbrain1" pin="9"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="L1" pin="9"/>
+    </net>
+    <net code="20" name="/XTal2">
+      <node ref="C_Xtal2" pin="1"/>
+      <node ref="Masterbrain1" pin="10"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="L1" pin="10"/>
+    </net>
+    <net code="21" name="Net-(SD1-Pad1)">
+      <node ref="SD1" pin="1"/>
+    </net>
+    <net code="22" name="/D9">
+      <node ref="Masterbrain1" pin="15"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="23" name="/Ext_24V">
+      <node ref="P5" pin="2"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="24" name="/24V">
+      <node ref="I_AC1" pin="4"/>
+      <node ref="BAT1" pin="2"/>
+      <node ref="I_AC1" pin="3"/>
+      <node ref="R1" pin="1"/>
+      <node ref="I_PV1" pin="2"/>
+      <node ref="I_PV1" pin="1"/>
+      <node ref="P7" pin="3"/>
+      <node ref="I_DC1" pin="2"/>
+      <node ref="I_DC1" pin="1"/>
+    </net>
+    <net code="25" name="/MISO">
+      <node ref="SD1" pin="7"/>
+      <node ref="Masterbrain1" pin="18"/>
+      <node ref="R3" pin="4"/>
+    </net>
+    <net code="26" name="/SCK">
+      <node ref="R3" pin="5"/>
+      <node ref="Masterbrain1" pin="19"/>
+      <node ref="SD1" pin="5"/>
+    </net>
+    <net code="27" name="/MOSI">
+      <node ref="SD1" pin="3"/>
+      <node ref="Masterbrain1" pin="17"/>
+      <node ref="R3" pin="3"/>
+    </net>
+    <net code="28" name="/SS">
+      <node ref="SD1" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Masterbrain1" pin="16"/>
+    </net>
+    <net code="29" name="/DC+_OUT">
+      <node ref="DC_MOSFET1" pin="5"/>
+      <node ref="DC_MOSFET1" pin="6"/>
+      <node ref="DC_MOSFET1" pin="7"/>
+      <node ref="DC_MOSFET1" pin="8"/>
+      <node ref="DC1" pin="2"/>
+    </net>
+    <net code="30" name="/D5">
+      <node ref="L1" pin="11"/>
+      <node ref="Masterbrain1" pin="11"/>
+    </net>
+    <net code="31" name="/AC_GO">
+      <node ref="MIC5021_2" pin="2"/>
+      <node ref="L1" pin="5"/>
+      <node ref="AC_ON1" pin="2"/>
+      <node ref="Masterbrain1" pin="5"/>
+    </net>
+    <net code="32" name="/V_BUS">
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Masterbrain1" pin="25"/>
+      <node ref="R3" pin="11"/>
+    </net>
+    <net code="33" name="Net-(R_VCC3-Pad2)">
+      <node ref="VCC3" pin="1"/>
+      <node ref="R_VCC3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(C_T_OPT1-Pad1)">
+      <node ref="MIC5021" pin="3"/>
+      <node ref="C_T_OPT1" pin="1"/>
+    </net>
+    <net code="35" name="/DC_GO">
+      <node ref="DC_ON1" pin="2"/>
+      <node ref="Masterbrain1" pin="4"/>
+      <node ref="L1" pin="4"/>
+      <node ref="MIC5021" pin="2"/>
+    </net>
+    <net code="36" name="Net-(DC_ON1-Pad1)">
+      <node ref="R_DC_ON1" pin="2"/>
+      <node ref="DC_ON1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(C_T_OPT2-Pad1)">
+      <node ref="MIC5021_2" pin="3"/>
+      <node ref="C_T_OPT2" pin="1"/>
+    </net>
+    <net code="38" name="/SW_1">
+      <node ref="R_SW1" pin="1"/>
+      <node ref="Masterbrain1" pin="14"/>
+      <node ref="Switches1" pin="2"/>
+      <node ref="L1" pin="14"/>
+    </net>
+    <net code="39" name="Net-(AC_ON1-Pad1)">
+      <node ref="R_AC_ON1" pin="2"/>
+      <node ref="AC_ON1" pin="1"/>
+    </net>
+    <net code="40" name="/SW_2">
+      <node ref="Switches1" pin="4"/>
+      <node ref="L1" pin="13"/>
+      <node ref="R_SW2" pin="1"/>
+      <node ref="Masterbrain1" pin="13"/>
+    </net>
+    <net code="41" name="/SW_3">
+      <node ref="R_SW3" pin="1"/>
+      <node ref="Switches1" pin="6"/>
+      <node ref="Masterbrain1" pin="12"/>
+      <node ref="L1" pin="12"/>
+    </net>
+    <net code="42" name="/DC_GATE">
+      <node ref="DC_MOSFET1" pin="4"/>
+      <node ref="MIC5021" pin="7"/>
+      <node ref="DC_MOSFET2" pin="4"/>
+    </net>
+    <net code="43" name="Net-(C_BOOST_DC1-Pad2)">
+      <node ref="C_BOOST_DC1" pin="2"/>
+      <node ref="MIC5021" pin="8"/>
+    </net>
+    <net code="44" name="/AC+">
+      <node ref="I_AC1" pin="2"/>
+      <node ref="AC_MOSFET1" pin="6"/>
+      <node ref="AC_MOSFET1" pin="7"/>
+      <node ref="AC_MOSFET1" pin="8"/>
+      <node ref="I_AC1" pin="1"/>
+      <node ref="AC_MOSFET1" pin="5"/>
+    </net>
+    <net code="45" name="/AC_SOURCE">
+      <node ref="MIC5021_2" pin="5"/>
+      <node ref="MIC5021_2" pin="6"/>
+      <node ref="AC_MOSFET1" pin="1"/>
+      <node ref="AC_MOSFET1" pin="2"/>
+      <node ref="AC_MOSFET1" pin="3"/>
+      <node ref="AC1" pin="2"/>
+      <node ref="C_BOOST_AC1" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C_BOOST_AC1-Pad2)">
+      <node ref="MIC5021_2" pin="8"/>
+      <node ref="C_BOOST_AC1" pin="2"/>
+    </net>
+    <net code="47" name="/DC_SOURCE">
+      <node ref="DC_MOSFET1" pin="3"/>
+      <node ref="C_BOOST_DC1" pin="1"/>
+      <node ref="DC_MOSFET1" pin="2"/>
+      <node ref="DC_MOSFET2" pin="1"/>
+      <node ref="DC_MOSFET2" pin="2"/>
+      <node ref="DC_MOSFET1" pin="1"/>
+      <node ref="MIC5021" pin="6"/>
+      <node ref="MIC5021" pin="5"/>
+      <node ref="DC_MOSFET2" pin="3"/>
+    </net>
+    <net code="48" name="/DC+">
+      <node ref="DC_MOSFET2" pin="5"/>
+      <node ref="DC_MOSFET2" pin="8"/>
+      <node ref="I_DC1" pin="4"/>
+      <node ref="I_DC1" pin="3"/>
+      <node ref="DC_MOSFET2" pin="7"/>
+      <node ref="DC_MOSFET2" pin="6"/>
+    </net>
+    <net code="49" name="/I_DC_3">
+      <node ref="I_DC1" pin="7"/>
+      <node ref="R3" pin="13"/>
+      <node ref="Masterbrain1" pin="27"/>
+    </net>
+    <net code="50" name="/I_AC_3">
+      <node ref="I_AC1" pin="7"/>
+      <node ref="Masterbrain1" pin="24"/>
+      <node ref="R3" pin="10"/>
+    </net>
+    <net code="51" name="/I_PV_3">
+      <node ref="I_PV1" pin="7"/>
+      <node ref="Masterbrain1" pin="26"/>
+      <node ref="R3" pin="12"/>
+    </net>
+    <net code="52" name="/AC_GATE">
+      <node ref="AC_MOSFET1" pin="4"/>
+      <node ref="MIC5021_2" pin="7"/>
+    </net>
+    <net code="53" name="/DTR">
+      <node ref="FTDI1" pin="6"/>
+      <node ref="C_µC1" pin="1"/>
+    </net>
+    <net code="54" name="/RESET">
+      <node ref="R_RESET1" pin="2"/>
+      <node ref="C_µC1" pin="2"/>
+      <node ref="Masterbrain1" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="55" name="/RX_ATm">
+      <node ref="FTDI1" pin="4"/>
+      <node ref="ESP8266" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="Masterbrain1" pin="2"/>
+    </net>
+    <net code="56" name="/GPIO2">
+      <node ref="P2" pin="1"/>
+      <node ref="ESP8266" pin="3"/>
+    </net>
+    <net code="57" name="/GPIO0">
+      <node ref="ESP8266" pin="5"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="58" name="/RX_ESP">
+      <node ref="Masterbrain1" pin="3"/>
+      <node ref="FTDI1" pin="5"/>
+      <node ref="L1" pin="3"/>
+      <node ref="ESP8266" pin="7"/>
+    </net>
+  </nets>
+</export>
