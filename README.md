@@ -1,2 +1,2 @@
-# score
-SunZilla score is a hard- and software package
+# SunZilla Score
+...is a hard- and software package
