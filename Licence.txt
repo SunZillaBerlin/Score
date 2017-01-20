@@ -1,0 +1,10 @@
+Licence
+
+All pictures and texts in this documentation are published under the Attribution-ShareAlike 4.0 International Licence (CC  BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+All schematics, plans, ...,  are published under the CERN OHL 1.2 Licence 
+http://www.ohwr.org/documents/294
+
+The Software parts are published under the LPGL 3.0 
+https://opensource.org/licenses/LGPL-3.0
